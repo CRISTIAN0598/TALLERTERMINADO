@@ -14,8 +14,10 @@ public class ControlDeAsistencia
       
         
         lectura.AbrirArchivo();
-       // lectura.MostrarDatos();
+       lectura.MostrarDatos();
         lectura.escrituta(personita);
+        lectura.entregarPromedio();
+        //////
     }
     
 }
